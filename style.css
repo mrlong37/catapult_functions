@@ -1,0 +1,65 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styling */
+h1 {
+    color: #333333;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Input Field Styling */
+.password-input {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid #333333;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+.password-check {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.password-check:hover {
+    background-color: #45a049;
+}
+
+/* Denied Message Styling */
+.denied {
+    text-align: center;
+    color: red;
+    display: none;
+}
+
+/* Success Message Styling */
+.yes {
+    text-align: center;
+    color: green;
+    display: none;
+}
+
+/* Image Styling */
+img {
+    max-width: 100%;
+    height: auto;
+}
