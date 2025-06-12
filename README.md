@@ -1,54 +1,39 @@
-# Lesson 4.3: Basic Conditional Statements
+# Password Checker Assignment
 
-## Conditional Statements
-Conditional statements allow you to execute different actions under different conditions. They are a fundamental part of programming logic and are used to make decisions within your code.
+Welcome to the **Password Checker** assignment! In this project, you'll practice writing JavaScript functions and connecting them to a web page. Your goal is to make a simple password checker that shows a fun message if the password is correct.
 
-### Syntax of Conditional Statements
-```javascript
-if (condition) {
-  // statement 1
-} else {
-  // statement 2
-}
-```
-- `if`: The keyword to start the conditional statement.
-- `condition`: An expression that evaluates to true or false.
-- `else`: The keyword for the alternate path when the condition is false.
+## What You'll Learn
+- How to write a JavaScript function
+- How to use `if` statements
+- How to connect your function to a button click
+- How to show and hide messages on a web page
 
-### Examples
-1. Basic Example:
-    ```javascript
-    let age = 17;
-    if (age > 16) {
-      console.log("You can drive!");
-    } else {
-      console.log("Sorry. Too young!");
-    }
-    ```
+## Getting Started
+1. **Open the project folder** in VS Code. You should see these files:
+    - `index.html` (the web page)
+    - `script.js` (where you'll write your code)
+    - `style.css` (for styling)
 
-2. Working with Strings:
-    ```javascript
-    let weather = "raining";
-    if (weather === "raining") {
-      alert("☔️");
-    } else {
-      alert("☀️");
-    }
-    ```
+2. **Open `script.js`**. This is where you'll write your JavaScript code.
 
-### Operators in Conditions
-- `<`: Less than.
-- `>`: Greater than.
-- `<=`: Less than or equal to.
-- `>=`: Greater than or equal to.
-- `===`: Equal to.
-- `!==`: Not equal to.
+## Steps to Complete the Assignment
 
-### Real-World Analogies
-- If it's raining outside, bring an umbrella; otherwise, bring sunglasses.
-- If travel time is more than 1 hour, read a book; otherwise, listen to music.
-- If it's a weekday, go to sleep at 10 PM; otherwise, stay up and play video games.
+### 1. Write the Password Checking Function
+- Find the comment that says:
+  ```js
+  // 1 - Write your function here
+  ```
+- Write a function that takes a password as input and returns `true` if the password is correct, or `false` if it is not.
 
----
+### 2. Use Your Function When the Button is Clicked
+- Find the comment that says:
+  ```js
+  // 2 - Call your function here, store the result in a variable
+  ```
+- Call your function with the password from the input box.
+- Use the result to display the correct message
 
-Happy coding! 😊
+### 3. Test Your Work
+- Open `index.html` in your browser (you can use the Live Server extension or just double-click the file).
+- Try entering the correct password and clicking the button. You should see the success message
+- Try entering a wrong password. You should see the denied message 
